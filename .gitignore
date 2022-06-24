@@ -1,5 +1,5 @@
 .config/
-.venv/
+venv/
 .replit
 replit.nix
 poetry.lock
