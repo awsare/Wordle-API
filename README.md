@@ -1,4 +1,4 @@
-# Wordle-API
+# Wordle API
 A simple API for wordle clones.
 
 # Endpoint
