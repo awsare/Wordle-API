@@ -60,7 +60,7 @@ def daily():
 			'Timestamp' : time.time()
 		}, 400
 		
-	if (day > 0 and day < len(words.targetWords)):
+	if (day <= 0 or day > len(words.targetWords)):
 		return {
 			'Call': 'Daily',
 			'Status' : 400,
