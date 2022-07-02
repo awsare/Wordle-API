@@ -1,7 +1,9 @@
 import random, words, time
 from flask import *
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/get/', methods=['GET'])
 def get():
