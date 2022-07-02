@@ -2,7 +2,7 @@
 A simple API for wordle clones.
 
 ## Endpoint
-https://thatwordleapi.azurewebsites.net
+https://thatwordleapi.azurewebsites.net/
 
 ## Paths
 - `/get/` returns a random five letter word from the Wordle word list.
